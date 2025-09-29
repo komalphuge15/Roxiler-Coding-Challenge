@@ -1,0 +1,49 @@
+/* ===== Navbar Styles ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #1e1e1e; 
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.navbar-logo {
+  font-size: 1.3rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.navbar-links button {
+  margin-left: 1rem;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background: #fff;
+  color: #1e1e1e;  
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.navbar-links button:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transform: scale(1.05);
+}
+
+.logout-btn {
+  background: #e53e3e; 
+  color: #fff;
+  border: 1px solid #e53e3e;
+}
+
+.logout-btn:hover {
+  background: transparent;
+  color: #e53e3e;
+  border: 1px solid #e53e3e;
+  transform: scale(1.05);
+}
